@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Id:</strong>
+  <%= @movie_genre.id %>
+</p>
+
+<p>
+  <strong>Movie:</strong>
+  <%= @movie_genre.movie %>
+</p>
+
+<p>
+  <strong>Genre:</strong>
+  <%= @movie_genre.genre %>
+</p>
+
+<%= link_to 'Edit', edit_movie_genre_path(@movie_genre) %> |
+<%= link_to 'Back', movie_genres_path %>

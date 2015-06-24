@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id: 1
+  original_language: MyText
+  original_title: MyText
+  release_date: 2015-06-24
+  popularity: 1.5
+  title: MyText
+  vote_average: 1.5
+  vote_count: 1
+
+two:
+  id: 1
+  original_language: MyText
+  original_title: MyText
+  release_date: 2015-06-24
+  popularity: 1.5
+  title: MyText
+  vote_average: 1.5
+  vote_count: 1

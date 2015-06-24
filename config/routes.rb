@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  resources :movie_genres
+
+  resources :movies
+
+  resources :genres
+
+  get 'movies/select'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
